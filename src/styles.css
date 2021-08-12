@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  width: 80%;
+  height: 50px;
+  padding: 2rem;
+  border: 0.2rem solid black;
+  margin: 3rem;
+}
+
+footer {
+  margin-top: 15rem;
+
+  background-color: #5f939a;
+  height: 60px;
+  padding: 2rem;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 2rem;
+}
