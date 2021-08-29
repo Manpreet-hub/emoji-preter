@@ -9,7 +9,11 @@ var emojiList = {
   "🙃": "Upside-Down Face",
   "😉": "Winking Face",
   "🥰": "Love",
-  "😘": "Face Blowing a Kiss"
+  "😘": "Face Blowing a Kiss",
+  "🤐": "Zipper-Mouth Face",
+  "😫": "Tired Face",
+  "😞": "Disappointed Face",
+  "😜": "Winking Face with Tongue"
 };
 var emojiWeKnow = Object.keys(emojiList);
 
@@ -34,7 +38,9 @@ export default function App() {
       <h1>Inside Outt!</h1>
       <input onChange={emojiInputHandler} />
       <h2>{meaning}</h2>
+      <br/>
       <h3>Emojis we know</h3>
+      <br/>
       {emojiWeKnow.map(function (emoji) {
         return (
           <span
